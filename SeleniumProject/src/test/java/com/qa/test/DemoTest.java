@@ -22,5 +22,23 @@ public class DemoTest {
 	Assert.assertEquals(10, b-a);
 		
 	}
+	@Test
+	public void Div()
+	{
+		System.out.println("Div method");
+		int a=10;
+		int b=20;
+	Assert.assertEquals(2, b/a);
+		
+	}
+	@Test
+	public void mul()
+	{
+		System.out.println("mul method");
+		int a=10;
+		int b=20;
+	Assert.assertEquals(200, b*a);
+		
+	}
 
 }
