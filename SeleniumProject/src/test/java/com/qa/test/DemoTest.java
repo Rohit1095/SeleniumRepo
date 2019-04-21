@@ -10,8 +10,8 @@ public class DemoTest {
 	{
 		System.out.println("sum method after changes");
 		int a=10;
-		int b=20;
-	Assert.assertEquals(30, a+b);
+		int b=50;
+	Assert.assertEquals(60, a+b);
 	}
 	@Test
 	public void sub()
